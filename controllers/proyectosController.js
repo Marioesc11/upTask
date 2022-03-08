@@ -31,7 +31,7 @@ exports.nuevoProyecto = async (req,res) => {
     let errores = [];
 
     if(!nombre) {
-        errores.push({'texto' : 'agrega texto pa'})
+        errores.push({'texto' : 'agrega textos pa'})
     }
 
     if(errores.length > 0){
